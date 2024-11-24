@@ -53,6 +53,7 @@ section {
     padding: 20px;
     width: 300px;
     border-radius: 10px;
+    border: #333 solid 0.5px;
 }
 
 form {
@@ -95,4 +96,45 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+.container {
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1opx;
+    border: 2px solid rgba(255, 255, 255, 0.684);
+    transition: all;
+}
+
+.gallery-item:hover{
+    width: 25%;
+}
+
+.gallery-item img {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.about > p {
+    text-align:justify;
+}
+
+.divider {
+    height: 50px;
 }
